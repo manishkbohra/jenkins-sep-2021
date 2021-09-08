@@ -16,4 +16,11 @@
 			<version>4.12</version>
 		</dependency>
 	</dependencies>
+	<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>artifactory-releases</name>
+        <url>http://localhost:8081/artifactory/manishkbohra</url>
+    </repository>
+</distributionManagement>
 </project>
